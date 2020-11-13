@@ -63,10 +63,10 @@ interface MyFunction {
 
 ```java
 MyFunction f = new MyFunction() {
-								public int max(int a, int b) {
-									return a > b ? a :b;
-								}
-							};
+	public int max(int a, int b) {
+		return a > b ? a :b;
+	}
+};
 
 int big = f.max(5,3);
 ```
