@@ -258,7 +258,7 @@ System.out.println(f.apply("AAA")); // AAA 출력
 - `default Predicate<T> negate()`
 - `static <T> Predicate<T> isEqual(Object targetRef)`
 
-여러 조건식을 논리 연산자인 &&, ||, ! 으로 연결해서 하나의 식을 구성하는 것 처럼, 여러 Predicate를 and(), or(), negate()로 연결해서 하나의 새로운 Predicate로 결합할 수 있다.
+여러 조건식을 논리 연산자인 `&&`, `||`, `!` 으로 연결해서 하나의 식을 구성하는 것 처럼, 여러 Predicate를 and(), or(), negate()로 연결해서 하나의 새로운 Predicate로 결합할 수 있다.
 
 ```java
 Predicate<Integer> p = i -> i < 100;
