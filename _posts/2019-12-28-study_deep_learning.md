@@ -77,7 +77,7 @@ y = np.sin(x)
 plt.plot(x,y)
 plt.show()
 ~~~
-![plot1]({{ site.baseurl }}/assets/images/study_deep_1/plot1.PNG)  
+![plot1]({{ site.baseurl }}/assets/images/study/study_deep_1/plot1.PNG)  
 **사인 그래프 출력**  
 
 
@@ -95,7 +95,7 @@ plt.legend()
 plt.show
 
 ~~~
-![plot2]({{ site.baseurl }}/assets/images/study_deep_1/plot2.PNG)  
+![plot2]({{ site.baseurl }}/assets/images/study/study_deep_1/plot2.PNG)  
 **그래프의 제목과 x,y축 이름 등등 그래프 정보**  
 
 ~~~python
@@ -105,7 +105,7 @@ img = imread('hi_cat.jpg')
 plt.imshow(img)
 plt.show
 ~~~
-![plot3]({{ site.baseurl }}/assets/images/study_deep_1/plot3.PNG)  
+![plot3]({{ site.baseurl }}/assets/images/study/study_deep_1/plot3.PNG)  
 
 파이썬에 대한 설명은 여기까지 했고 딥러닝의 기초를 시작 했다.
 
@@ -121,7 +121,7 @@ plt.show
 
 흐른다는 1, 흐르지 않는다는 0으로 이해하면 된다.  
 
-![perceptron1]({{ site.baseurl }}/assets/images/study_deep_1/perceptron1.png)  
+![perceptron1]({{ site.baseurl }}/assets/images/study/study_deep_1/perceptron1.png)  
 
 여기서 x1, x2는 입력 w1, w2는 가중치 y는 출력이다.  
 
@@ -129,7 +129,7 @@ plt.show
 
 여기서 정해진 한계를 임계값이라 부르며 θ를 사용한다.  
 
-![perceptron2]({{ site.baseurl }}/assets/images/study_deep_1/perceptron2.png)  
+![perceptron2]({{ site.baseurl }}/assets/images/study/study_deep_1/perceptron2.png)  
 
 **퍼셉트론 동작 수식**  
 
