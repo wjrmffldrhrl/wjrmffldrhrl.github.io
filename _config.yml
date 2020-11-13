@@ -4,18 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: History
+subtitle: my history
+description: "대학생때부터 지금까지"
+author: wjrmffldrhrl
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ko
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: "https://wjrmffldrhrl.github.io"
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 
 # Pagination
@@ -380,8 +380,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: "wjrmffldrhrl"
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
