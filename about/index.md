@@ -68,13 +68,3 @@ Eye Tracking Api를 활용하여 만들었다.
 <center><img src="{{site.baseurl}}/assets/images/about/hackathon_sisang.JPG" ></center> 
 <br>
 3명이서 고생도 많이하고 머리 싸매고 좋은 결과를 만들어 내서 의미있는 시간이었다.
-
-
-
-### 한이음
-
-**진행중**  
-
-### 오픈 SW 개발자 경진대회  
-
-**진행중**
