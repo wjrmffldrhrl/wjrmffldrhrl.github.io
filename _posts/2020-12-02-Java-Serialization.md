@@ -8,10 +8,7 @@ header:
   teaser: /assets/images/java/java.jpg
   image: /assets/images/java/java.jpg
 ---  
-# 직렬화
-
-# What is Serialize
-
+# What is Serialize?
 - 객체 또는 데이터를 바이트 형태로 변환하는 기술
 - 바이트로 변환된 데이터를 다시 객체로 변환하는 기술
 
