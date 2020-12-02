@@ -73,7 +73,7 @@ String base64User = Base64.getEncoder().encodeToString(serializedUser);
 byte[] serializedUser = Base64.getDecoder().decode(base64User);
 try (ByteArrayInputStream bais = new ByteArrayInputStream(serializedUser)) {
     try (ObjectInputStream ois = new ObjectInputStream(bais)) {
-        // 역직렬화된 Member 객체를 읽어온다.
+        // 역직렬화된 User 객체를 읽어온다.
         Object objectUser = ois.readObject();
         User user = (User) objectUser;
         System.out.println(user.toString());
