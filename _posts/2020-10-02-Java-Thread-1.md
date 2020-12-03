@@ -80,7 +80,7 @@ class ThreadEx1 extends Thread {
 }
 
 class ThreadEx2 implements Runnable {
-	public void runt() {
+	public void run() {
 		for(int i = 0 ; i < 5 ; i++) {
 
 			// Thread.currentThread() 현재 실행중인 쓰레드 반환
