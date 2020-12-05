@@ -11,9 +11,8 @@ type: about
 
 데이터 처리, 분석, 인공지능 
 
-## 👦 Profile
-
 ---
+## 👦 Profile
 
 👶 1996년 3월 2일 출생
 
@@ -21,9 +20,9 @@ type: about
 
 👨‍🎓 성결대학교 재학중 (2015.03 ~ 2021.02.)
 
-## 💡 Contact
-
 ---
+
+## 💡 Contact
 
 ✉️  wjrmffldrhrl@gmail.com 
 
@@ -31,98 +30,94 @@ type: about
 
 📞  010-5261-1586
 
-## 🏆 Prize
-
 ---
+
+## 🏆 Prize
 
 - 성결대학교 2019학년도 모바일 프로그래밍 경진대회 최우수상
 - 서울시 2019 SEOUL 미세먼지 해커톤 대회 우수상
 - 성결대학교 파이데이아칼리지 2019학년도 교육용 소프트웨어 경진대회 우수상
 - 한국정보산업연합회 2019 한이음 공모전 입선
 
-## 📝 Blog
-
 ---
-
-[History](https://wjrmffldrhrl.github.io/)
 
 ## 🗃 Github
 
----
 
 [wjrmffldrhrl - Overview](https://github.com/wjrmffldrhrl)
 
+---
+
 ## ⚒Personal & Team Project
 
----
 
 - 대학교 프로젝트
 
-    ### 콘솔 멀티 루미큐브
+### 콘솔 멀티 루미큐브
 
-    콘솔 환경 실시간 루미큐브 게임
+콘솔 환경 실시간 루미큐브 게임
 
-    > 교내 경진대회 출품작 (우수상)
+> 교내 경진대회 출품작 (우수상)
 
-    - 기간 : 2018.04.01 ~ 2018.06.25
-    - 언어 : C
-    - 역할
-        - 팀장
-        - TCP/IP Socket 통신 구현
-        - 전체적인 게임 플레이 구현
-    - 관련 기술
-        - `C`, `C++`, `TCP/IP Socket`
+- 기간 : 2018.04.01 ~ 2018.06.25
+- 언어 : C
+- 역할
+    - 팀장
+    - TCP/IP Socket 통신 구현
+    - 전체적인 게임 플레이 구현
+- 관련 기술
+    - `C`, `C++`, `TCP/IP Socket`
 
-    ### [안돼 너 자면 큰일나](https://play.google.com/store/apps/details?id=com.pro.annu)
+### [안돼 너 자면 큰일나](https://play.google.com/store/apps/details?id=com.pro.annu)
 
-    학생들을 타겟으로 한 졸음 방지 어플리케이션
+학생들을 타겟으로 한 졸음 방지 어플리케이션
 
-    > 교내 경진대회 출품작 (최우수상)
+> 교내 경진대회 출품작 (최우수상)
 
-    - 기간 : 2019.04.06 ~ 2019.06.18
-    - 언어 : Java
-    - 역할
-        - 팀장
-        - eye tracking 구현
-        - Application 출시
-        - Android Hardware 제어
-    - 관련 기술
-        - `Java`, `Android`, `OpenCV`
-    - [Github Repository](https://github.com/wjrmffldrhrl/mobileteam)
+- 기간 : 2019.04.06 ~ 2019.06.18
+- 언어 : Java
+- 역할
+    - 팀장
+    - eye tracking 구현
+    - Application 출시
+    - Android Hardware 제어
+- 관련 기술
+    - `Java`, `Android`, `OpenCV`
+- [Github Repository](https://github.com/wjrmffldrhrl/mobileteam)
 
-    ### Movie Cloud
+### Movie Cloud
 
-    영화 리뷰 크롤링 데이터 시각화 시스템
+영화 리뷰 크롤링 데이터 시각화 시스템
 
-    > 교내 경진대회 출품작 (우수상)
+> 교내 경진대회 출품작 (우수상)
 
-    - 기간 : 2019.10.19 ~ 2019.10.31
-    - 언어 : Python
-    - 역할
-        - Web Crawling
-        - Word Cloud 생성
-        - 데이터 서버 전송
-    - 관련 기술
-        - `Python`, `Web Crawling`, `Django`, `Konlpy`, `Word Cloud`
-    - [Github Repository](https://github.com/wjrmffldrhrl/Python-Movie-Recommendation)
+- 기간 : 2019.10.19 ~ 2019.10.31
+- 언어 : Python
+- 역할
+    - Web Crawling
+    - Word Cloud 생성
+    - 데이터 서버 전송
+- 관련 기술
+    - `Python`, `Web Crawling`, `Django`, `Konlpy`, `Word Cloud`
+- [Github Repository](https://github.com/wjrmffldrhrl/Python-Movie-Recommendation)
 
-    ### [TeamHash](http://ec2-3-17-16-176.us-east-2.compute.amazonaws.com:8080/)
+### [TeamHash](http://ec2-3-17-16-176.us-east-2.compute.amazonaws.com:8080/)
 
-    대학생을 타겟으로 한 조별과제 협업 플랫폼
+대학생을 타겟으로 한 조별과제 협업 플랫폼
 
-    > 교내 경진대회 출품작
+> 교내 경진대회 출품작
 
-    - 기간 : 2020.03.01 ~ 2020.07.01
-    - 언어 : Java, JavaScript
-    - 역할
-        - Back-end 개발
-        - DB 관리
-        - AWS 배포 서버 관리
-        - STOMP를 활용한 실시간 채팅서버 구현
-        - REST API 파일 업로드 서버 구현
-    - 관련 기술
-        - `Java`, `STOMP`, `Thymeleaf`, `Spring Boot`, `AWS`, `Maria DB`
-    - [Github Repository](https://github.com/kyu9341/TeamHash)
+- 기간 : 2020.03.01 ~ 2020.07.01
+- 언어 : Java, JavaScript
+- 역할
+    - Back-end 개발
+    - DB 관리
+    - AWS 배포 서버 관리
+    - STOMP를 활용한 실시간 채팅서버 구현
+    - REST API 파일 업로드 서버 구현
+- 관련 기술
+    - `Java`, `STOMP`, `Thymeleaf`, `Spring Boot`, `AWS`, `Maria DB`
+- [Github Repository](https://github.com/kyu9341/TeamHash)
 
 ## 외부 프로젝트
 
