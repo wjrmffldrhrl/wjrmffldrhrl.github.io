@@ -51,7 +51,7 @@ type: about
 ## ⚒Personal & Team Project
 
 
-- 대학교 프로젝트
+## 대학교 프로젝트
 
 ### 콘솔 멀티 루미큐브
 
