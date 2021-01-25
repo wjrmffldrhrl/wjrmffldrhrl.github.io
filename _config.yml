@@ -6,7 +6,7 @@
 # Site
 title: History
 subtitle: my history
-description: "대학생때부터 지금까지"
+description: "이것 저것 합니다."
 author: wjrmffldrhrl
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
@@ -232,8 +232,8 @@ social_icons:
 
 
 # Sidebar Avatar
-in directory: https://avatars1.githubusercontent.com/u/49122299?s=460&u=0752d1005ede3702b391663a03f56894d309f0a2&v=4
-#avatar:
+# in directory: https://avatars1.githubusercontent.com/u/49122299?s=460&u=0752d1005ede3702b391663a03f56894d309f0a2&v=4
+avatar: /assets/images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
