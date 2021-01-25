@@ -8,8 +8,7 @@ header:
   teaser: /assets/images/java/java.jpg
   image: /assets/images/java/java.jpg
 ---  
-
-# Java  equals() 와 "=="
+Java에서의 논리적 동치성 비교
 
 # == 연산자
 
@@ -90,7 +89,7 @@ public boolean equals(Object obj) {
 
 그런데 Object도 단순하게 `==` 연산자를 통해 매개변수로 받은 Object 객체와 해당 객체를 비교하고있다.  이 메서드로는 우리가 선언한 Student 클래스의 논리적 동치성을 확인할 수 없다. 
 
-그래서 개발자들은 객체의 논리적인 동치성을 확인하기 위해 Obejct 클래스 내부의 equals 메서드를 재정의한다.
+그래서 개발자들은 객체의 논리적인 동치성을 확인하기 위해 Obejct 클래스 내부의 `equals(Object)` 메서드를 재정의한다.
 
 ### String equals(Object)
 
@@ -122,11 +121,11 @@ public boolean equals(Object anObject) {
 
 그게 아니라면 매개변수 객체가 String 인스턴스가 맞는지 확인한 후 String 클래스 내부에 존재하는 value char array의 값을 하나씩 비교한다. 비교한 값이 모두 맞으면 두 객체가 논리적으로 같다고 판단하고 `true`를 반환한다.
 
-> 그런데 
-`String a = "aaa";` 
-`String b = "aaa";`
-`System.out.println(a == b);`
-이렇게 하면 `true`가 나오는데 String도 `==`연산자로 논리적 동치성을 검증할 수 있는거 아닌가요?
+> 그런데  
+> `String a = "aaa";`  
+> `String b = "aaa";`  
+> `System.out.println(a == b);`  
+> 이렇게 하면 `true`가 나오는데 String도 `==`연산자로 논리적 동치성을 검증할 수 있는거 아닌가요?
 
 아니다. 위의 방식대로 비교한 것은 `"aaa"`의 메모리 주소값을 비교한 것이다. 
 
@@ -153,9 +152,9 @@ System.out.println(a == b);
 
 # Overriding
 
-그렇다면 우리가 정의한 Student 클래스는 equals 메서드를 어떻게 재정의하는게 좋을까?
+그렇다면 우리가 정의한 Student 클래스는 `equals(Object)` 메서드를 어떻게 재정의하는게 좋을까?
 
-equals를 재정의할 때는 아래와 같은 일반 규악을 따라야 한다.
+이때 우리는 아래와 같은 일반 규악을 따라야 한다.
 
 ### **재정의 일반 규약**
 
@@ -172,7 +171,7 @@ equals를 재정의할 때는 아래와 같은 일반 규악을 따라야 한다
 
 꼭 필요한 경우가 아니면 재정의 하지 않아야 하며, 필요한 경우에는 위의 규약을 확실히 지켜가면서 재정의 해야 한다.
 
-위 규약을 지키면서 equals를 재정의 하면 아래와 같은 Student 클래스가 완성된다.
+위 규약을 지키면서 `equals(`를 재정의 하면 아래와 같은 Student 클래스가 완성된다.
 
 ### Student
 
@@ -187,15 +186,17 @@ class Student {
 	}
 
 	@Override
-  public boolean equals(Object o) {
-      if (this == o) return true;
-      if (o == null || getClass() != o.getClass()) return false;
-      Student student = (Student) o;
-      return age == student.age && Objects.equals(name, student.name);
-  }
+	public boolean equals(Object o) {
+	    if (this == o) return true;
+	    if (o == null || getClass() != o.getClass()) return false;
+	    Student student = (Student) o;
+	    return age == student.age && Objects.equals(name, student.name);
+	}
 
 }
 ```
+
+# Reference
 
 [System.identityHashCode() Method in Java With Examples - GeeksforGeeks](https://www.geeksforgeeks.org/system-identityhashcode-method-in-java-with-examples/)
 
