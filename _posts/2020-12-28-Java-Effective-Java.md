@@ -1,7 +1,7 @@
 ---
 title:  "Effective Java 3/E"
 categories:
-  - Java
+  - Book
 tags:
   - java
 header:
