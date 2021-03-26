@@ -10,8 +10,6 @@ header:
   image: /assets/images/stock_analysis/title.png
 ---  
 
-# Auto Trading
-
 # 결과
 
 내용을 작성하기에 앞서 결과적으로는 좋은 성능의 예측 모델을 만들지 못했다.
