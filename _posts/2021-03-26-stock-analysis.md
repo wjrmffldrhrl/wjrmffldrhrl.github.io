@@ -1,13 +1,13 @@
 ---
-title:  "Microsoft Certification DP-100 후기"
+title:  "Stock Analysis with AutoML"
 categories:
-  - Study
+  - Stock Analysis
 tags:
-  - Azure
-  - Machine Learning
+  - AI
+  - Stock
 header:
-  teaser: /assets/images/study/azure/azure1.png
-  image: /assets/images/study/azure/azure1.png
+  teaser: /assets/images/stock_analysis/title.png
+  image: /assets/images/stock_analysis/title.png
 ---  
 
 # Auto Trading
