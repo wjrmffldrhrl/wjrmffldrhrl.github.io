@@ -37,6 +37,15 @@ header:
 
 [Stock Discussion Crawler](https://github.com/wjrmffldrhrl/stock_discussion_crawler)  
 
+Docker와 JDK(1.8 이상)이 설치되어있고 Mac이나 Linux라면 아래의 명령어로 바로 실행해 볼 수 있다.
+```shell
+git clone https://github.com/wjrmffldrhrl/stock_discussion_crawler.git
+
+cd stock_discussion_crawler
+
+sh run_docker_crawler.sh
+```  
+
 코틀린으로 제작된 이 크롤러는 원하는 종목을 종목코드 리스트로 작성하면 해당 종목토론방에서 생성되는 글을 실시간으로 크롤링해 `YYYY_MM_DD.csv`파일 형태로 생성한다.  
 
 ### CSV
