@@ -46,7 +46,7 @@ Superset에서는 [helm chart](https://github.com/apache/superset/tree/master/he
 
 CDN 적용 전 Superset의 네트워크 구성은 다음과 같았습니다.
 
-![_CDN.drawio (1).png]({{ site.baseurl }}/assets/images/cloudfront/_CDN.drawio_(1).png)
+![_CDN.drawio (1).png]({{ site.baseurl }}/assets/images/cloudfront/Untitled 20.png)
 
 1. 사용자가 AWS Route 53에서 생성된 도메인 네임으로 요청합니다.
 2. 해당 도메인은 AWS Elastic Load Balancer를 가리킵니다.
