@@ -161,9 +161,7 @@ CloudFront 원본 동작 설정에서 이것을 지정해줍니다.
 # Reference
 
 ### CDN이란?
-
 [콘텐츠 전송 네트워크 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
 
 ### AWS CloudFront란?
-
 [Amazon CloudFront란 무엇입니까?](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
