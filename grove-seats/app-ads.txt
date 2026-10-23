@@ -1,0 +1,3 @@
+google.com, pub-3072314415468536, DIRECT, f08c47fec0942fa0
+google.com, pub-2924566567965076, DIRECT, f08c47fec0942fa0
+# Refreshed for published Duckssg iOS and Android store verification, 2026-10-24.
